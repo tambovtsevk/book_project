@@ -12,7 +12,7 @@ public class BookManager {
 
     //заполняем лист при старте приложения
     static {
-        Book book1 = new Book("Над пропастью в о ржи", "Kek", 213, "Russian", 9);
+        Book book1 = new Book("Над пропастью во ржи", "Kek", 213, "Russian", 9);
         Book book2 = new Book("Жребий", "King", 439, "США", 8);
         bookList.add(book1);
         bookList.add(book2);
