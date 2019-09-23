@@ -37,15 +37,15 @@ public class BookManager {
     }
 
     String getBookByCountry(String country) {
-        String OTBET = null;
+        String answer = null;
         for (Book book : bookList) {
             if (book.getCountry().equals(country)) {
-                OTBET = book.getName();
+                answer = book.getName();
             }
         }
 
-        if (OTBET != null) {
-            return OTBET;
+        if (answer != null) {
+            return answer;
         } else {
             return "Книга не найдена";
         }
